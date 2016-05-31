@@ -96,7 +96,7 @@ task :post, [:name, :title, :date, :category, :content] do |t, args|
 
   post_name = args.name
   post_title = args.title
-  post_date = (args.date != nil and args.date != "" and args.date != "nil") ? args.date : Time.new.strftime("%Y-%m-%d %H:%M:%S %Z")
+  post_date = (args.date != nil and args.date != "" and args.date != "nil") ? args.date : Time.new.strftime("%Y-%m-%d %H:%M:%S %z")
 
   # the destination directory is <<category>>/$post_dir, if category is non-nil
   # and the directory exists; $post_dir otherwise (a category tag is added in
