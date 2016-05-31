@@ -107,8 +107,8 @@ task :post, [:name, :title, :date, :category, :content] do |t, args|
     yaml_cat = nil
   else
     post_dir = $post_dir
-    yaml_cat = post_category ? "category: #{post_category}\n" : nil
-    yaml_cat ||= "category: #{$default_category}\n"
+    yaml_cat = post_category ? "categories: #{post_category}\n" : nil
+    yaml_cat ||= "categories: #{$default_category}\n"
   end
 
   def slugify (title)
