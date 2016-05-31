@@ -9,13 +9,13 @@ date: 2016-05-31 08:39:32 中国标准时间
 
 #### createStore
 
-```javascript
+{% highlight javascript %}
 export default function createStore(reducer, initialState, enhancer) {
     //...
     var currentReducer = reducer
     var currentState = initialState
     //...
 }
-```
+{% endhighlight %}
 
 continue...
