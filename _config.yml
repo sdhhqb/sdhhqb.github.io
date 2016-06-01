@@ -20,5 +20,6 @@ github_username:  sdhhqb
 # Build settings
 markdown: kramdown
 
-highlighter: rouge
+highlighter: pygments
 encoding: utf-8
+# pygments
