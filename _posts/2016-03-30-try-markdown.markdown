@@ -50,6 +50,36 @@ categories: jekyll update
 ***
 <br>
 
-    //tab或四个空格缩进
+tab或四个空格缩进
+
     $str = '123';
     print($str);  
+
+github支持的带高亮的代码块
+
+>\`\`\`language
+>
+>code
+>
+>\`\`\`
+
+```js
+    console.log(123)
+```
+
+### 超链接
+***
+<br>
+
+插入链接的位置
+
+>\[链接名字\]\[id\]
+
+任意位置(建议文件底部)
+
+>\[id\]: url地址
+
+eg: [baidu][1]
+
+[1]: https://www.baidu.com
+
