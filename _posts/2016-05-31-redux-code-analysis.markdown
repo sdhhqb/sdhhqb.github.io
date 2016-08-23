@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "redux原理解读(一)-关键代码解读"
+title: "redux原理解读-关键代码分析(一)"
 categories: jekyll post
 date: 2016-05-31 08:39:32 中国标准时间
 ---
